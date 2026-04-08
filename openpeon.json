@@ -1,0 +1,162 @@
+{
+  "cesp_version": "1.0",
+  "name": "japan-rail",
+  "display_name": "Japan Rail",
+  "version": "1.0.0",
+  "description": "Japanese Train station jingles and announcements sound pack.",
+  "author": {
+    "name": "Adam Bullmer",
+    "github": "adambullmer"
+  },
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/session_start_door_closing.mp3",
+          "label": "Doors are closing announcement"
+        },
+        {
+          "file": "sounds/session_start_departing_shortly.mp3",
+          "label": "Train will depart shortly announcement"
+        },
+        {
+          "file": "sounds/session_start_thank_you_waiting.mp3",
+          "label": "Thank you for waiting announcement"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/task_acknowledge_akabaneiwabuchi.mp3",
+          "label": "Akabaneiwabuchi Departure Melody"
+        },
+        {
+          "file": "sounds/task_acknowledge_akasakamitsuke.mp3",
+          "label": "Akasakamitsuke Rain Shower Melody"
+        },
+        {
+          "file": "sounds/task_acknowledge_asakusa.mp3",
+          "label": "Asakusa Departure Melody"
+        },
+        {
+          "file": "sounds/task_acknowledge_tokyo_melody_6.mp3",
+          "label": "Tokyo Train Station Departure Melody 6"
+        },
+        {
+          "file": "sounds/task_acknowledge_akihabara.mp3",
+          "label": "Akihabara Departure Melody"
+        },
+        {
+          "file": "sounds/task_acknowledge_chikatetu_narimasu.mp3",
+          "label": "Chikatetu Narimasu Departure Melody"
+        },
+        {
+          "file": "sounds/task_acknowledge_edogawabashi.mp3",
+          "label": "Edogawabashi Departure Melody"
+        },
+        {
+          "file": "sounds/task_acknowledge_fuchu_bunbunbun.mp3",
+          "label": "Fuchu Bunbunbun Departure Melody"
+        },
+        {
+          "file": "sounds/task_acknowledge_fujisawa.mp3",
+          "label": "Fujisawa Departure Melody"
+        },
+        {
+          "file": "sounds/task_acknowledge_ginza_itchome_2.mp3",
+          "label": "Ginza Itchome Departure Melody 2"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/task_complete_next_stop_tokyo.mp3",
+          "label": "Next stop is Tokyo announcement"
+        },
+        {
+          "file": "sounds/task_complete_terminal_tokyo.mp3",
+          "label": "Terminal station Tokyo announcement"
+        },
+        {
+          "file": "sounds/task_complete_we_have_arrived.mp3",
+          "label": "We have arrived announcement"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/task_error_yellow_line.mp3",
+          "label": "Warning announcement (stand behind the yellow line)"
+        },
+        {
+          "file": "sounds/task_error_dangerous_rushing.mp3",
+          "label": "Dangerous rushing announcement"
+        },
+        {
+          "file": "sounds/task_error_sudden_stop.mp3",
+          "label": "Sudden stop warning announcement"
+        },
+        {
+          "file": "sounds/task_error_trouble_occurred.mp3",
+          "label": "Trouble occurred announcement"
+        },
+        {
+          "file": "sounds/task_error_crossing_bell.mp3",
+          "label": "Train crossing bell (Voice/Onomatopoeia)"
+        },
+        {
+          "file": "sounds/task_error_actual_crossing_chime.mp3",
+          "label": "Actual train railroad crossing chime"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/task_progress_train_rolling.mp3",
+          "label": "Train rolling on tracks (Voice/Onomatopoeia)"
+        },
+        {
+          "file": "sounds/task_progress_actual_rolling.mp3",
+          "label": "Train rolling on tracks (Clickety Clack / Gatan Goton)"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/user_spam_train_screeching.mp3",
+          "label": "Train screeching (Voice/Onomatopoeia)"
+        },
+        {
+          "file": "sounds/user_spam_actual_screeching.mp3",
+          "label": "Actual train braking/screeching"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/input_required_gate_chime_1.wav",
+          "label": "Ticket gate chime 1"
+        },
+        {
+          "file": "sounds/input_required_touch_ic_card.mp3",
+          "label": "Please touch your IC card announcement"
+        },
+        {
+          "file": "sounds/input_required_charge_card.mp3",
+          "label": "Please charge card announcement"
+        },
+        {
+          "file": "sounds/input_required_crossing_intro.mp3",
+          "label": "Train crossing intro"
+        }
+      ]
+    }
+  }
+}
