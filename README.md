@@ -26,6 +26,7 @@ Install via the [OpenPeon registry](https://openpeon.com) or manually:
 | `task.progress`    | 2        | Train-rolling ambience for long-running tasks                  |
 | `input.required`   | 4        | Ticket gate chimes played when user input is needed            |
 | `user.spam`        | 2        | Train screeching played when requests come in too fast         |
+| `resource.limit`   | 1        | Ticket gate error beeps when quota or token limits are reached |
 
 ## Sound Details
 
@@ -79,6 +80,10 @@ Install via the [OpenPeon registry](https://openpeon.com) or manually:
 
 - Train screeching (Voice/Onomatopoeia)
 - Actual train braking/screeching
+
+### `resource.limit`
+
+- Ticket gate IC card error
 
 ## Copyright
 

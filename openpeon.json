@@ -157,6 +157,14 @@
           "label": "Train crossing intro"
         }
       ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/resource_limit_ic_error.mp3",
+          "label": "Ticket gate IC card error"
+        }
+      ]
     }
   }
 }
